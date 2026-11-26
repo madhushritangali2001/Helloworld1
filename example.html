@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iFrame Media Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Section Wrapper -->
+  <main class="container">
+    <header class="section-header">
+      <h2>Featured Media Player</h2>
+      <p>Explore our latest embedded content directly within a responsive card component.</p>
+    </header>
+
+    <!-- Card Wrapper -->
+    <div class="card">
+      <h3 class="card-title">YouTube Video Showcase</h3>
+      <p class="card-description">
+        Watch this quick preview embedded safely using an standard HTML iframe element with rounded corners and no default borders.
+      </p>
+
+      <!-- Standard Website iFrame Task Requirement -->
+      <!-- <iframe src="https://example.com" title="Example Website" class="card-iframe"></iframe> -->
+
+      <!-- Working YouTube Embed Implementation -->
+      <iframe 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="Example YouTube Video" 
+        class="card-iframe"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </main>
+
+</body>
+</html>
